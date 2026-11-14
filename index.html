@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tarayıcıda çalışan ücretsiz PDF araçları">
+  <title>LocalPDF - PDF Araçları</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" data-home><span class="brand-mark">L</span><span>LocalPDF</span></a>
+      <p class="privacy-note"><i data-lucide="shield-check"></i> Dosyalarınız cihazınızdan çıkmaz</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home-view" class="hero-view">
+      <div class="hero-copy">
+        <span class="eyebrow">Basit. Güvenli. Tarayıcıda.</span>
+        <h1>PDF işlemleriniz için<br><strong>yerel çalışma alanı.</strong></h1>
+        <p>Dosyalarınızı yükleyin, işleminizi seçin ve çıktınızı anında indirin. Sunucuya gönderim yoktur.</p>
+      </div>
+      <div class="tool-grid" id="tool-grid"></div>
+    </section>
+
+    <section id="workspace-view" class="workspace-view hidden">
+      <div class="workspace-heading">
+        <button class="back-button" data-home><i data-lucide="arrow-left"></i> Araçlara dön</button>
+        <div><span class="eyebrow" id="workspace-category">PDF ARAÇLARI</span><h2 id="workspace-title"></h2></div>
+      </div>
+      <div id="workspace-content"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status"></div>
+  <div id="loading" class="loading-overlay hidden"><div class="spinner"></div><span>İşleniyor...</span></div>
+  <footer class="site-footer container"><span>LocalPDF</span><span>İşlemler cihazınızda gerçekleşir.</span></footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.1/Sortable.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
