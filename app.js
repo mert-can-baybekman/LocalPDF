@@ -16,7 +16,7 @@
     ['watermark','Filigran Ekle','PDF sayfalarınıza metin filigranı ekleyin.','stamp','PDF'],
     ['numbers','Sayfa Numarası Ekle','PDF sayfalarına otomatik numara yerleştirin.','list-ordered','PDF'],
     ['compress','PDF Sıkıştır','PDF dosyanızı verimli şekilde kaydedin.','minimize-2','PDF'],
-    ['studio','PDF Studio','PDF.js ve Fabric ile sayfa üstünde düzenleyin.','pen-tool','Düzenle'],
+    ['studio','PDF Görüntüle ve Düzenle','PDF Stüdyo ile sayfa üstünde düzenleyin.','pen-tool','Düzenle'],
     ['sign','PDF İmzala','PDF üzerine dijital imza metni ekleyin.','signature','Düzenle'],
     ['redact','PDF Redakte Et','Sayfalardaki hassas alanları karartın.','square','Düzenle'],
     ['ocr','OCR (Türkçe + İngilizce)','Görüntülerden metin çıkarın.','scan-text','Düzenle'],
