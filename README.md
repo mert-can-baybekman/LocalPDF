@@ -15,3 +15,11 @@ PDF.js, pdf-lib ve Fabric.js v5 ile çalışan PDF Studio; sürükle-bırak sayf
 Studio kısayolları: `Ctrl/Cmd+Z` geri al, `Ctrl/Cmd+Y` yinele, `Ctrl/Cmd+Shift+Z` yinele, `Delete/Backspace` seçili nesneyi sil, `Esc` seçim aracına dön.
 
 Tüm CDN kütüphaneleri yalnızca tarayıcıda çalışır; dosyalar sunucuya gönderilmez.
+
+## PDF Studio güncellemeleri
+
+- Çoklu nesne seçimi, katman sırası, hizalama ve dikey dağıtma kontrolleri eklendi.
+- Metin için yazı tipi, boyut, renk, kalın/italik; şekiller için dolgu, çizgi ve kalınlık kontrolleri eklendi.
+- Form metin kutusu, bağlantı alanı, kayıtlı imza yönetimi ve gelişmiş redaksiyon nesneleri eklendi.
+- PDF metin arama, sayfa boyutu/kırpma/arka plan ve mevcut döndürme, ekleme, silme, kopyalama, sıralama akışları güçlendirildi.
+- Export sırasında sayfa ayarları ve düzenleme katmanı korunur; UTF-8 ve PDF.js/Fabric ayrık render katmanları korunmuştur.
